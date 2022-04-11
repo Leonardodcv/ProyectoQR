@@ -1,0 +1,19 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+<h1>Computadoras</h1>
+
+  <p>Prueba.</p>
+
+<h2>Computadoras disponibles</h2>
+
+  <p>The library has the following record counts:</p>
+  <ul>
+    <li><strong>num_equipos:</strong> {{ num_equipos }}</li>
+    <li><strong>num_instances_available:</strong> {{ num_instances_available }}</li>
+    <li><strong>num_instances_not_available:</strong> {{ num_instances_not_available }}</li>
+    <li><strong>num_tipo:</strong> {{ num_tipo }}</li>
+    <li><strong>num_os:</strong> {{ num_os }}</li>
+  </ul>
+
+{% endblock %}
